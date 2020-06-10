@@ -1,0 +1,22 @@
+body{
+    margin: 0 auto;
+    width: 75%;
+    background-color: darkgray;
+    text-align: center;
+}
+
+h1{
+    font-weight: bold;
+}
+
+#main{
+    color: purple;
+}
+
+#second{
+    color: red;
+}
+
+#third{
+    color: green;
+}
