@@ -1,0 +1,51 @@
+body{
+    background-image:url(images/20200130_202944.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.wrapper{
+    width: 99%;
+}
+
+.nav-link{
+    margin: 10px;
+    background-color: #14213d;
+    color: #e5e5e5;
+    border-radius: 5px;
+}
+
+.nav-link:hover{
+    background-color: #e5e5e5;
+    color: #14213d;
+}
+
+.card{
+    background-color: #14213d;
+    color: #e5e5e5;
+}
+
+#profile-card{
+    margin-left: 10px;
+    width: 100%;
+}
+
+#profile-pic{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 20%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+.btn{
+    background-color: #e5e5e5;
+    color: #14213d;
+}
+
+.btn:hover{
+    background-color: #14213d;
+    color: #e5e5e5;
+}
