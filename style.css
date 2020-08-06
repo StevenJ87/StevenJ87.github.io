@@ -4,6 +4,10 @@ body{
     background-attachment: fixed;
 }
 
+img{
+    pointer-events: none;
+}
+
 .wrapper{
     width: 99%;
 }
