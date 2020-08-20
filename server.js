@@ -1,4 +1,5 @@
-const express = require("express")
+const express = require("express");
+const routes = require("./routes");
 const app = express();
 const PORT = process.env.PORT || 3001;
 
@@ -8,14 +9,6 @@ if(process.env.NODE_ENV === "production"){
     app.use(express.static("client/build"));
 }
 
-app.get("/api/test", function(req, res){
-    res.json({
-        test: "test"
-    })
-})
-
-app.get("*", function (req, res) {
-    res.sendfile("./client/build/index.html");
-})
+app.use(routes);
 
 app.listen(PORT, () => console.log(`Listening on port: ${PORT}`));
