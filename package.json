@@ -1,0 +1,14 @@
+{
+  "name": "StevenJ87.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:StevenJ87/StevenJ87.github.io.git",
+  "author": "Steven Johnson <sjohnson21960@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "create-react-app": "^3.4.1"
+  }
+}
