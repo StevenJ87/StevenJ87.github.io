@@ -7,7 +7,7 @@ import API from "../utils/API";
 function Detail() {
   return (
       <Container fluid>
-        
+        <h1>Details</h1>
       </Container>
     );
   }

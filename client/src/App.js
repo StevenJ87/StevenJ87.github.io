@@ -15,10 +15,10 @@ function App() {
           <Route exact path={["/"]}>
             <Books />
           </Route>
-          <Route exact path="/projects">
+          <Route exact path={["/projects"]}>
             <Detail />
           </Route>
-          <Route exact path="/about">
+          <Route exact path={["/about"]}>
             <NoMatch />
           </Route>
         </Switch>
