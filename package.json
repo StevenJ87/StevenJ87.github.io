@@ -5,6 +5,12 @@
   "repository": "git@github.com:StevenJ87/StevenJ87.github.io.git",
   "author": "Steven Johnson <sjohnson21960@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
+  },
   "dependencies": {
     "express": "^4.17.1"
   },
