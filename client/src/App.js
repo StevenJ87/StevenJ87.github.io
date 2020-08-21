@@ -11,8 +11,12 @@ function App() {
       <div>
         <Nav />
         <Switch>
-          <Route path="/" component={Books} />
-          <Route path="/projects" component={Projects} />
+          <Route exact path="/">
+            <Books/>
+            </Route>
+          <Route exact path="/projects">
+          <Projects/>
+          </Route>
         </Switch>
       </div>
     </Router>
