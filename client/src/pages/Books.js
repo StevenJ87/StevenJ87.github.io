@@ -6,14 +6,15 @@ import { Col, Row, Container } from "../components/Grid";
 import { List, ListItem } from "../components/List";
 import { Input, TextArea, FormBtn } from "../components/Form";
 
-function Books() {
-
+class Books extends Component {
+  render() {
     return (
       <Container fluid>
         <h1>Books</h1>
       </Container>
     );
   }
+}
 
 
 export default Books;

@@ -3,13 +3,15 @@ import { Link, useParams } from "react-router-dom";
 import { Col, Row, Container } from "../components/Grid";
 import Jumbotron from "../components/Jumbotron";
 
-function Detail() {
-  return (
+class Detail extends Component {
+  render() {
+    return (
       <Container fluid>
         <h1>Details</h1>
       </Container>
     );
   }
+}
 
 
 export default Detail;

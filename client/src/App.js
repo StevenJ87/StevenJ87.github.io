@@ -12,15 +12,9 @@ function App() {
       <div>
         <Nav />
         <Switch>
-          <Route path="/">
-            <Books />
-          </Route>
-          <Route path="/projects">
-            <Detail />
-          </Route>
-          <Route path="/about">
-            <NoMatch />
-          </Route>
+          <Route path="/" component={Books} />
+          <Route path="/projects" component={Detail} />
+          <Route path="/about" component={NoMatch} />
         </Switch>
       </div>
     </Router>
