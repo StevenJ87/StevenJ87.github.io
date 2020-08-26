@@ -1,9 +1,7 @@
 import React from "react";
 import "./style.css";
-import profilePic from "../../images/20200326_115819"
+import profilePic from "../../images/20200326_115819.jpg"
 
-// The ...props means, spread all of the passed props onto this element
-// That way we don't have to define them all individually
 function ProfileCard() {
   return (
     <div className="col-sm-2">
