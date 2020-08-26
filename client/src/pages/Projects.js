@@ -7,6 +7,9 @@ class Projects extends Component {
   render() {
     return (
       <Container fluid>
+        <Row>
+          
+        </Row>
         <h1>Projects</h1>
       </Container>
     );
