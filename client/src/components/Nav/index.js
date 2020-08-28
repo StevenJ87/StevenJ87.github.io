@@ -1,16 +1,21 @@
 import React from "react";
-import {Link} from "react-router-dom"
+import { Link, ListItem } from "react-router-dom"
+import './index.css';
 
 function Nav() {
   return (
-    <nav className="nav justify-content-end">
-      <Link className="nav-link" to="/">
-        Home
+    <ul className="nav justify-content-center">
+      <li>
+        <Link className="nav-link" to="/">
+          Home
       </Link>
-      <Link className="nav-link" to="/projects">
-        Projects
+      </li>
+      <li>
+        <Link className="nav-link" to="/projects">
+          Projects
       </Link>
-    </nav>
+      </li>
+    </ul>
   );
 }
 
