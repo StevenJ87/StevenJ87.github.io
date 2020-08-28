@@ -7,7 +7,7 @@ function Nav() {
     <ul className="nav justify-content-center">
       <li>
         <Link className="nav-link" to="/">
-          Home
+          About
       </Link>
       </li>
       <li>
