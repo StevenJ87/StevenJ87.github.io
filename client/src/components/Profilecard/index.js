@@ -10,7 +10,7 @@ function ProfileCard() {
         <div className="card-body">
           <h5 className="card-title">Steven Johnson</h5>
           <ExternalLink href="mailto: sjohnson21960@gmail.com" className="btn">Email</ExternalLink>
-          <ExternalLink href="https://linkedin.com/in/stevenjohnson87" className="btn">LinkdIn</ExternalLink>
+          <ExternalLink href="https://linkedin.com/in/stevenjohnson87" className="btn">LinkedIn</ExternalLink>
           <ExternalLink href="https://github.com/StevenJ87" className="btn">GitHub</ExternalLink>
         </div>
       </div>
