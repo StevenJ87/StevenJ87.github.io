@@ -5,7 +5,7 @@
 ## Description
 This is a portfolio page created to show my knowledge of different coding languages, librariies and technologies.
 
-[Portfolio](https://stevejohnson.herokuapp.com/projects)
+Live version [HERE](https://stevejohnson.herokuapp.com/projects)
 
 ---
 ## User Story
@@ -34,19 +34,13 @@ SO THAT all relevant information for a possible future employer can be accessed 
 * React-Bootstrap
 ---
 ## Installation
-Fork 
-### Install
-    npm install
-### Run (production)
-    npm start
-### Run (dev)
-    npm run watch
-### Tests (includes linting)
-    npm test
-### Linting by itself (only detects errors)
-    npm run lint
-### Autofix linting errors where pssible (Note: this will not necessarily fix all of them)
-    npm run fix
+Fork repository [HERE](https://github.com/StevenJ87/StevenJ87.github.io)
+#### Open terminal in project
+    yarn run
+    node server.js
+#### Open second terminal in client
+    yarn run
+    npm run
 ---
 ## Contact
 Steven Johnson:
