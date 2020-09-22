@@ -10,9 +10,9 @@ This is a portfolio page created to show my knowledge of different coding langua
 ---
 ## User Story
 ```
-AS an individual who wishes to showcase
-I WANT an application that can show me artists and albums related to movies I have seen or want to see
-SO THAT I don't have to use multiple websites or applications to find out the songs that are in my favorite movies
+AS an individual who wishes to showcase my knowledge of coding
+I WANT a website framework that can be used to display information and coding knowledge
+SO THAT all relevant information for a possible future employer can be accessed in one place
 ```
 ---
 ## Table of Contents
@@ -22,34 +22,35 @@ SO THAT I don't have to use multiple websites or applications to find out the so
 
 [Usage](#usage)
 
-[Collaborators](#collaborators)
-
 ---
 ## Creation
 
 ### Technologies
-The front-end of the application uses HTML, CSS, Bootstrap, JavaScript, and API's from OMDB and iTunes.
-
-The back-end of the application uses javascript, AJAX and jQuery.
-
+* HTML
+* CSS
+* Yarn
+* React
+* ReactDOM
+* React-Bootstrap
 ---
 ## Installation
-### For local installation
-1. Fork app from [HERE](https://github.com/ayodejiamosun/Project-1)
-2. Save application locally
-3. Select index.html and open in default browser
-
+Fork 
+### Install
+    npm install
+### Run (production)
+    npm start
+### Run (dev)
+    npm run watch
+### Tests (includes linting)
+    npm test
+### Linting by itself (only detects errors)
+    npm run lint
+### Autofix linting errors where pssible (Note: this will not necessarily fix all of them)
+    npm run fix
 ---
-## Collaborators
+## Contact
 Steven Johnson:
 [LinkedIn](https://www.linkedin.com/in/stevenjohnson87/),
 [Portfolio](https://stevejohnson.herokuapp.com/projects),
 [GitHub](https://github.com/StevenJ87)
-
-Ayodeji Amosun:
-[LinkedIn](https://www.linkedin.com/in/ayodeji-amosun-599296196/),
-[GitHub](https://github.com/ayodejiamosun)
-
-Al Patino:
-[GitHub](https://github.com/AlPatino98)
 ___
