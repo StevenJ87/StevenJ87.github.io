@@ -20,7 +20,7 @@ SO THAT all relevant information for a possible future employer can be accessed 
 
 [Installation](#installation)
 
-[Usage](#usage)
+[Contact](#contact)
 
 ---
 ## Creation
