@@ -45,6 +45,6 @@ Fork repository [HERE](https://github.com/StevenJ87/StevenJ87.github.io)
 ## Contact
 Steven Johnson:
 [LinkedIn](https://www.linkedin.com/in/stevenjohnson87/),
-[Portfolio](https://stevejohnson.herokuapp.com/projects),
+[Portfolio](https://stevejohnson.herokuapp.com/),
 [GitHub](https://github.com/StevenJ87)
 ___
