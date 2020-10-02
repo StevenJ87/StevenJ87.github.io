@@ -20,6 +20,8 @@ SO THAT all relevant information for a possible future employer can be accessed 
 
 [Installation](#installation)
 
+[Use](#use)
+
 [Contact](#contact)
 
 ---
@@ -42,6 +44,18 @@ Fork repository [HERE](https://github.com/StevenJ87/StevenJ87.github.io)
     yarn run
     npm run
 ---
+
+## Use
+### Landing Page
+On this page you will see a profile card with links to sites where more information can be found about me. The about section tells you about my story.
+
+<img src="client\src\images\README_1.PNG" width="500"/>
+
+### Projects Page
+This page showcases some of the projects I have worked on.
+
+<img src="client\src\images\README_2.PNG" width="500"/>
+
 ## Contact
 Steven Johnson:
 [LinkedIn](https://www.linkedin.com/in/stevenjohnson87/),
