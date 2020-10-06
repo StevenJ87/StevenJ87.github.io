@@ -10,19 +10,11 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 app.use(express.static("client/build"));
-// We need to use sessions to keep track of our user's login status
-app.use(
-  session({
-    secret: process.env.SESSION_SECRET,
-    resave: true,
-    saveUninitialized: true
-  })
-);
 
 // Requiring our routes
 require("./routes/html-routes.js")(app);
 
-app.use("/", function(req, res) {
+app.use("*", function(req, res) {
   res.sendFile(path.join(__dirname, "../client/build/index.html"))
 })
 
