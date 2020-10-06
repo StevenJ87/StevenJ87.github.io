@@ -1,17 +1,24 @@
 import React from "react";
-import { Link } from "react-router-dom"
+import { useHistory } from "react-router-dom";
 import './index.css';
 
 function Nav() {
+
+  const history = useHistory();
+
   return (
     <ul className="nav justify-content-center">
       <li>
-        <Link className="nav-link" to="/">
+        <Link className="nav-link" onClick={() => {
+          history.push("/")
+          }}>
           About
       </Link>
       </li>
       <li>
-        <Link className="nav-link" to="/#/projects">
+      <Link className="nav-link" onClick={() => {
+          history.push("/projects")
+          }}>
           Projects
       </Link>
       </li>
