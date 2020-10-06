@@ -11,7 +11,7 @@ function Nav() {
       </Link>
       </li>
       <li>
-        <Link className="nav-link" to="'/#/projects">
+        <Link className="nav-link" to="/#/projects">
           Projects
       </Link>
       </li>
