@@ -15,12 +15,12 @@ import pocketDIY3 from "../images/PocketDIY3.PNG"
 import pocketDIY4 from "../images/PocketDIY4.PNG"
 import pocketDIY5 from "../images/PocketDIY5.PNG"
 import pocketDIY6 from "../images/PocketDIY6.PNG"
-import BluTX1 from "../images/PocketDIY1.PNG"
-import BluTX2 from "../images/PocketDIY2.PNG"
-import BluTX3 from "../images/PocketDIY3.PNG"
-import BluTX4 from "../images/PocketDIY4.PNG"
-import BluTX5 from "../images/PocketDIY5.PNG"
-import BluTX6 from "../images/PocketDIY6.PNG"
+import BluTX1 from "../images/Blu1.PNG"
+import BluTX2 from "../images/Blu2.PNG"
+import BluTX3 from "../images/Blu3.PNG"
+import BluTX4 from "../images/Blu4.PNG"
+import BluTX5 from "../images/Blu5.PNG"
+import BluTX6 from "../images/Blu6.PNG"
 
 class Projects extends Component {
   render() {
