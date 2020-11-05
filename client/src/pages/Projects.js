@@ -15,6 +15,12 @@ import pocketDIY3 from "../images/PocketDIY3.PNG"
 import pocketDIY4 from "../images/PocketDIY4.PNG"
 import pocketDIY5 from "../images/PocketDIY5.PNG"
 import pocketDIY6 from "../images/PocketDIY6.PNG"
+import BluTX1 from "../images/PocketDIY1.PNG"
+import BluTX2 from "../images/PocketDIY2.PNG"
+import BluTX3 from "../images/PocketDIY3.PNG"
+import BluTX4 from "../images/PocketDIY4.PNG"
+import BluTX5 from "../images/PocketDIY5.PNG"
+import BluTX6 from "../images/PocketDIY6.PNG"
 
 class Projects extends Component {
   render() {
@@ -24,6 +30,60 @@ class Projects extends Component {
           <div className="col-sm-10">
             <div className="body-text">
               <h1>Projects</h1>
+
+              {/* Project 1 */}<br></br>
+              <h4 className="project-title">BluTX</h4>
+              <Carousel>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={BluTX1}
+                    alt="First slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={BluTX2}
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={BluTX3}
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={BluTX4}
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={BluTX5}
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={BluTX6}
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+              </Carousel>
+              <p>
+                This is an online shop for items related to political parties in the state of Texas.
+                  </p>
+              <p>
+                This project utilized the Shopify hosting platform in conjuction with its associated coding language Liquid. Applications like Printful were used in conjuction  with the Shopify platform in order for custom items to be created depending on a users request.
+                  </p>
+              <h5><ExternalLink href="https://www.blutx.com/">BluTX.com</ExternalLink></h5>
 
               {/* Project 1 */}<br></br>
               <h4 className="project-title">movieMuse</h4>
